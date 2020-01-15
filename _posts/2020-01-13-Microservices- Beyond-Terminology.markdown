@@ -4,6 +4,7 @@ title:  "Microservices- Beyond Terminology"
 date:   2020-01-13 23:22:43 +0530
 categories: jekyll update
 author: Ankit Tarway
+permalink: /Microservices-Beyond-Terminology/
 ---
 <h1>Problem Statement </h1>
 
