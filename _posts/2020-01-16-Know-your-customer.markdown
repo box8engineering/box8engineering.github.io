@@ -257,7 +257,7 @@ tracking_id, coupon, order_type).<br> <br>
 
 <br> 
 
-![](/assets/box8/image/snowplow_funnel_analysis.png)
+![](/assets/image/snowplow_funnel_analysis.png)
 
 *****
 
