@@ -8,7 +8,7 @@ permalink: ratnesh-keshari/know-your-customer-snowplow-analytics/
 ---
 
 
-### Know your customer , How they behave on your platform
+### Know your customer, How they behave on your platform
 
 Every e-commerce organisation requires powerful analytics tool that can record
 customer’s interaction with their Website,  App or Server and visualise the
