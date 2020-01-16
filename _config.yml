@@ -26,7 +26,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "box8engineering.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BOX8_in
 github_username: box8engineering
-
+google_analytics: UA-42144405-14
 # Build settings
 theme: minima
 plugins:
