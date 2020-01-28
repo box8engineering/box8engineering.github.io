@@ -9,7 +9,6 @@ imageUrl: https://cdn-images-1.medium.com/max/800/1*gXOO_mNFBxS7t-FoSO2OXA.png
 description: Every e-commerce organisation requires powerful analytics tool that can record customer’s interaction with their Website,  App or Server and visualise the behaviour at Customer level.
 ---
 
-
 ### Know your customer, How they behave on your platform
 
 Every e-commerce organisation requires powerful analytics tool that can record
