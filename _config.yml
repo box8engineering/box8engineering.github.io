@@ -39,7 +39,6 @@ livereload: true
 
 
 future: true
-
 port: 4000
 #headers setting 
 # header_pages:
