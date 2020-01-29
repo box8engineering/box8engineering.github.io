@@ -47,7 +47,8 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "_bootstrap"
 ;
 
 .home{
@@ -62,4 +63,15 @@ $on-laptop:        800px !default;
 
 footer{
   background: #1c1c1c;
+  
+  h2{
+    margin: 60px 0 50px 0;
+    color: white;
+    font-size: 28px;  
+    font-weight: 200;
+  }
+
+  hr{
+    color: hsla(60,2%,90%,.3);
+  }
 }
