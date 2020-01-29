@@ -47,9 +47,10 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting",
-  "_bootstrap"
+  "minima/syntax-highlighting"
 ;
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 .home{
 	h3{

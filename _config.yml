@@ -27,19 +27,24 @@ url: "box8engineering.github.io" # the base hostname & protocol for your site, e
 twitter_username: BOX8_in
 github_username: box8engineering
 google_analytics: UA-42144405-14
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
 #timezone setting
 timezone: Asia/Kolkata
 
 livereload: true
-
-
-
 future: true
 port: 4000
+
+
+# sass:
+#   sass_dir: assets/css
+#   style: compressed
+
 #headers setting 
 # header_pages:
 #   - about.md
