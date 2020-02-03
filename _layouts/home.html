@@ -2,32 +2,31 @@
 layout: default
 ---
 
-<body class="home">
-	<div class="home">
-		{%- if page.title -%}
-			<h1 class="page-heading">{{ page.title }}</h1>
-		{%- endif -%}
+<body>
+	<div class="container">		
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				{{ content }}
 		
-		{{ content }}
-		
-		{%- if site.posts.size > 0 -%}
-			<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-			<ul class="post-list">
-				{%- for post in site.posts -%}
-					<li>
-						<img src="{{post.imageUrl}}" alt="">
-						<h3>
-							<a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
-						</h3>
-						{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-						<span class="post-meta">{{ post.date | date: date_format }}</span>
-						<p class="excerpt">{{ post.description }}</p>
-					</li>
-				{%- endfor -%}
-			</ul>
-		
-			<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-		{%- endif -%}
-		
-		</div>	
+				{%- if site.posts.size > 0 -%}
+					<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+					<ul class="post-list">
+						{%- for post in site.posts -%}
+							<li>
+								<img src="{{post.imageUrl}}" alt="">
+								<h3>
+									<a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
+								</h3>
+								{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+								<span class="post-meta">{{ post.date | date: date_format }}</span>
+								<p class="excerpt">{{ post.description }}</p>
+							</li>
+						{%- endfor -%}
+					</ul>
+				
+					<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
 </body>
