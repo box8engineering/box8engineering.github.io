@@ -2,30 +2,34 @@
 layout: default
 ---
 
-<body>
+<body class="home">
 	<div class="container">		
 		<div class="row">
-			<div class="col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 				{{ content }}
 		
 				{%- if site.posts.size > 0 -%}
-					<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-					<ul class="post-list">
-						{%- for post in site.posts -%}
-							<li>
-								<img src="{{post.imageUrl}}" alt="">
-								<h3>
-									<a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
-								</h3>
-								{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-								<span class="post-meta">{{ post.date | date: date_format }}</span>
-								<p class="excerpt">{{ post.description }}</p>
-							</li>
-						{%- endfor -%}
-					</ul>
-				
+					{%- for post in site.posts -%}
+					<div class="row blog-row">
+						<div class="col-md-3 col-lg-3 image-wrapper">
+							<img src="{{post.imageUrl}}" alt="">
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<h3>
+								<a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
+							</h3>
+							{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+							<span class="post-meta">{{ post.date | date: date_format }}</span>
+							<p class="excerpt">{{ post.description }}</p>
+						</div>
+					</div>
+					{%- endfor -%}
 					<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 				{%- endif -%}
+			</div>
+
+			<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+
 			</div>
 		</div>
 	</div>
