@@ -260,10 +260,17 @@ tracking_id, coupon, order_type).<br> <br>
 
 ![](/assets/image/snowplow_funnel_analysis.png)
 
+**Summary :**Driving business decision based on data is a key for successful
+organisations. Snowplow helps to bring customer interaction data and set a
+platform for data-team to find insights of data. It would probably help to grow
+your business by making  data backed decision.<br> “Use of analytics is
+accelerating, and that means more data-driven<br> decision making and fewer
+hunches. Evidence-based management<br> complements analytics by adding validated
+cause-and-effect relationships<br> between policies and effects.” — **Paul
+Gibbons.**
+
+Did you find this blog post helpful? If so, would you like to share it?
+
 *****
-
-<br> 
-
-<br> 
 
 <br> 
