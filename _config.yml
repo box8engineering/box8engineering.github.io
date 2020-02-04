@@ -40,6 +40,26 @@ livereload: true
 future: true
 port: 4000
 
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "authors"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 
 # sass:
 #   sass_dir: assets/css
@@ -58,7 +78,7 @@ port: 4000
 # their entries' file path in the `include:` list.
 #
 exclude:
-  bower_components
+  [bower_components]
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

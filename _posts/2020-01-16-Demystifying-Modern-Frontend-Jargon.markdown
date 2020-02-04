@@ -3,7 +3,7 @@ layout: post
 title:  "Demystifying Modern Frontend Jargon"
 date:   2020-01-16 23:22:43 +0530
 categories: jekyll update
-author: Ananya Neogi
+author: "Ananya Neogi"
 permalink: ananya-neogi/demystifying-modern-frontend-jargon/
 description: The world of frontend programming is full of confusing jargons and we see a lot these terms getting thrown around. This is my small attempt to break down some of these terms or concepts into simpler terms with very limited to no code examples.
 ---

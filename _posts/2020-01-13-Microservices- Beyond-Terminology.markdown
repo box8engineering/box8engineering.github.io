@@ -3,7 +3,7 @@ layout: post
 title:  "Microservices- Beyond Terminology"
 date:   2020-01-13 23:22:43 +0530
 categories: jekyll update
-author: Ankit Tarway
+author: "Ankit Tarway"
 permalink: /Microservices-Beyond-Terminology/
 description: Assume you have to design a scalable online delivery based grocery application that facilitates the following feature. 
 imageUrl: /assets/image/tarwayblog.png

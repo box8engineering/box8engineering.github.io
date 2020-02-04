@@ -20,6 +20,11 @@ layout: default
 							</h3>
 							{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 							<span class="post-meta">{{ post.date | date: date_format }}</span>
+							{% assign author = site.authors | where: 'name', post.author | first %}
+							{% if author %}
+							  - <a href='{{author.url}}'>{{ author.name }}</a>
+							{% endif %}
+
 							<p class="excerpt">{{ post.description }}</p>
 						</div>
 					</div>
@@ -29,7 +34,7 @@ layout: default
 			</div>
 
 			<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
-
+				<!-- Popular Post here -->
 			</div>
 		</div>
 	</div>
