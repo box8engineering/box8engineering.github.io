@@ -4,4 +4,5 @@ name: "Ananya Neogi"
 position: Software Engineer
 ---
 
-For example, an About page for a blog or news site can be vastly different when compared to the same page for a portfolio website. In this collection, I’ve rounded up 30 excellent “About me” pages from the web portfolios of amazing designers, artists, illustrators, and developers.
+Ananya is a self-proclaimed CSS Ninja! Also, a frontend engineer who thrives at the intersection of tech and design.
+She is still waiting for her Hogwarts letter!

@@ -5,7 +5,7 @@ date:   2020-01-16 23:22:43 +0530
 categories: jekyll update
 author: "Ratnesh Keshari"
 permalink: ratnesh-keshari/know-your-customer-snowplow-analytics/
-imageUrl: https://cdn-images-1.medium.com/max/800/1*gXOO_mNFBxS7t-FoSO2OXA.png
+imageUrl: /assets/image/snowplow_funnel_analysis.png
 description: Every e-commerce organisation requires powerful analytics tool that can record customer’s interaction with their Website,  App or Server and visualise the behaviour at Customer level.
 ---
 
