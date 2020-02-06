@@ -55,36 +55,6 @@ $on-laptop:        800px !default;
   margin-bottom: 14px;
 }
 
-.home{
-
-	.blog-row{
-		margin-bottom: 20px;
-
-		.image-wrapper{
-			min-height: 100px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-
-			img{
-				width: 100%;
-			}
-		}
-
-		h3{
-			margin: 10px 0;
-
-			a:hover{
-				text-decoration: none;
-			}
-		}
-	}
-
-	.excerpt{
-		font-size: 14px;
-	}
-}
-
 footer{
   	background: #1c1c1c;
   
@@ -117,7 +87,7 @@ footer{
 
 .author-info-wrapper{
 	width: 100%;
-	margin-bottom: 160px;
+	margin-bottom: 100px;
 	background-color: #f8f9fa;
 
 	.author-container{
@@ -148,11 +118,15 @@ footer{
 
 .blog-wrapper{
 	width: 100%;
+	margin-top: 60px;
 
 	.blog-container{
 		width: 40%;
 		margin: 0 auto 50px auto;
 
+		.blog{
+			margin-bottom: 50px;
+		}
 		.blog-image-wrapper{
 			width: 100%;
 			min-height: 490px;
