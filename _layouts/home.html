@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<body class="home">
+	<div class="container-fluid">		
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				{{ content }}
+
+				{%- if site.posts.size > 0 -%}
+
+					<div class="blog-wrapper">
+						<div class="blog-container">
+							{% for post in site.posts %}
+							<div class="blog">
+								<div class="img-responsive">
+									<img  src="{{post.imageUrl}}" alt="">
+								</div>
+								
+								<p class="blog-title">{{post.title}}</p>
+								<p class="blog-date">
+									{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+									{{ post.date | date: date_format }}
+									{% assign author = site.authors | where: 'name', post.author | first %}
+									{% if author %}
+										- <a href='{{author.url}}'>{{ author.name }}</a>
+									{% endif %}
+								</p>
+								<p class="blog-description">
+									{{post.description}}
+								</p>
+		
+								<a href="{{ post.url }}" class="blog-link">Read More</a>
+							</div>        
+							{% endfor %}      
+						</div>
+				</div>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+</body>

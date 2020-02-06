@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 0;">
+            <div class="author-info-wrapper">
+                <div class="author-container">
+                    <p class="author-name">{{ page.name }}</p>
+                    <p class="author-title">{{ page.position }}</p>
+
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="blog-wrapper">
+                <div class="blog-container">
+                    {% assign filtered_posts = site.posts | where: 'author', page.name %}
+                    {% for post in filtered_posts %}
+                    <div class="blog">
+                        <div class="blog-image-wrapper">
+                            <img src="{{post.imageUrl}}" alt="">
+                        </div>
+                        
+                        <p class="blog-title">{{post.title}}</p>
+                        <p class="blog-date">
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            {{ post.date | date: date_format }}
+                        </p>
+                        <p class="blog-description">
+                            {{post.description}}
+                        </p>
+
+                        <a href="{{ post.url }}" class="blog-link">Read More</a>
+                    </div>        
+                    {% endfor %}      
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
