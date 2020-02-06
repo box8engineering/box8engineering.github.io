@@ -86,7 +86,7 @@ Dcoument Scanner is a data capture solution built to retrieve data from image do
 
 Document Scanner was built to solve the above mentioned problems. We have been able to productize a pipeline for OCR by working with it as not just for character recognition but getting structured usable information.
 
-<center><img src="https://ph-files.imgix.net/a8b55670-2332-43fa-9a36-7e6619308363?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=627.3015873015872&h=380&fit=max&dpr=2"></img></center>
+<center><img src="https://ph-files.imgix.net/a8b55670-2332-43fa-9a36-7e6619308363?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=627.3015873015872&h=380&fit=max&dpr=2"></center>
  
 
 
@@ -96,7 +96,8 @@ Document Scanner was built to solve the above mentioned problems. We have been a
 
  <center><img src="http://drive.google.com/uc?export=view&id=1_rkrGFUKEGx7dG0Ys6kIOWrd_xaPo-q4" width="80%" height="80%"></center>
 
- <div style="text-decoration:underline">Benefits of Document Sanner</div>
+### <a style="text-decoration:underline;" >Benefits of Document Sanner </a>
+
 1. Document Scanner saves precious time by providing structured usable information which can be used for autofilling forms etc.
 2. Prevents error due to User entry.
 3. Increases overall productivity.
@@ -106,7 +107,7 @@ Document Scanner was built to solve the above mentioned problems. We have been a
 ### 8. <a name="use_cases" style="text-decoration:underline;">How we use Document Scanner at Box8 ?</a>
 
 
-<a style= "text-decoration:underline"> Employee Onboarding Using Aadhar </a > 
+#### <a style= "text-decoration:underline"> Employee Onboarding Using Aadhar </a > 
 
 
 Employee Creation requires filling of multiple fields and is quite time taking.
@@ -118,7 +119,7 @@ Document Scanner with Aadhaar helps speed up the process and helps in eliminatin
 <center><img src= "http://drive.google.com/uc?export=view&id=1AO1Dw44v4hMBtu1-N74srcS9ecWjRFHi" width="80%" height="80%" > </center>
 
 
- <a style="text-decoration:underline">Digitzation of Vendor Invoices </a>
+#### <a style="text-decoration:underline">Digitzation of Vendor Invoices </a>
 
 
    We use Document Scanner to extract data from a vendor invoice , like GST info, invoice number ,information of items purchased , the total amount to be paid etc. Further it also helps us to identify if any of the above information is missing or incorrect than the data entered manually and automatically raise disputes.
