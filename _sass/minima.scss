@@ -182,8 +182,11 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 768px) {
+.about-description{
+	margin: 40px 0;
+}
 
+@media only screen and (max-width: 768px) {
 	.author-info-wrapper{	
 		margin-bottom: 80px;
 		.author-container{
