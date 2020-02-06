@@ -28,7 +28,7 @@ imageUrl: https://nanonets.com/blog/content/images/2019/08/OCR_illustration-2.gi
 
 ### 1. <a name="intro" style="text-decoration:underline;"> Introduction</a>
 
-Simply defined, OCR is a set of computer vision tasks that convert scanned documents and images into machine readable text. It takes images of documents, invoices and receipts, finds text in it and converts it into a format that machines can better process. You want to read information off of ID cards or read numbers on a bank cheque, OCR is what will drive your software.
+Simply defined, OCR is a set of computer vision tasks that convert scanned documents and images into machine-readable text. It takes images of documents, invoices and receipts, finds text in it and converts it into a format that machines can better process. You want to read information off of ID cards or read numbers on a bank cheque, OCR is what will drive your software.
 
  You might need to read the different characters from a cheque, extract the account number, amount, currency, date etc. <b>But how do you know which character corresponds to which field?</b>
 
@@ -43,7 +43,7 @@ The APIs provided by many are limited to solving a very limited set of use cases
 
 ![alt_text](https://nanonets.com/blog/content/images/2019/08/OCR_illustration-02--3-.jpg "image_tooltip")
 
-More often than not, a business planning to use OCR technology needs an in-house team to build on the OCR API available to them to actually apply it to their use case. The OCR technology available in the market today is mostly a partial solution to the problem.
+More often than not, a business planning to use OCR technology needs an in-house team to build on the OCR API available to them to apply it to their use case. The OCR technology available in the market today is mostly a partial solution to the problem.
 
 
 
@@ -59,14 +59,14 @@ More often than not, a business planning to use OCR technology needs an in-house
 ### 4. **<a name="ocr_need" style="text-decoration:underline;">Should I even consider using OCR then?</a>**
 Short answer is <b>Yes</b>.
 
-Anywhere there is a lot of paperwork or manual effort involved, OCR technology can enable image and text based process automation. Being able to digitize information in an accurate way can help business processes become smoother, easier and a lot more reliable along with reducing the manpower required to execute these processes. For big organizations who have to deal with a lot of forms, invoices, receipts, etc, being able to digitize all the information, storing and structuring the data, making it searchable and editable is a step closer to a paper-free world.
+Anywhere there is a lot of paperwork or manual effort involved, OCR technology can enable image and text based process automation. Being able to digitize information accurately can help business processes become smoother, easier and a lot more reliable along with reducing the manpower required to execute these processes. For big organizations that have to deal with a lot of forms, invoices, receipts, etc, being able to digitize all the information, storing and structuring the data, making it searchable and editable is a step closer to a paper-free world.
 
 Think about the following use cases - 
 1. <span style="text-decoration:underline;">Legal documents</span> -
     Dealing with different forms of documents - affidavits, judgments, filings, etc. digitizing, databasing and making them searchable.
 
  2. <span style="text-decoration:underline;">Table extraction</span> - 
-    Automatically detect tables in a document, get text in each cell, column headings for research, data entry, data collection, etc.
+    Automatically detect tables in a document, get the text in each cell, column headings for research, data entry, data collection, etc.
 
   3.  <span style="text-decoration:underline;">Banking</span> - analyzing cheques, reading and updating passbooks, ensuring KYC compliance, analyzing applications for loans, accounts and other services.
 
@@ -84,7 +84,7 @@ Think about the following use cases -
 ### 6. <a name="docparser" style="text-decoration:underline;">Document Scanner & OCR</a>
 Dcoument Scanner is a data capture solution built to retrieve data from image documents. It takes an image and extracts the data required in near real-time.
 
-Document Scanner was built to solve the above mentioned problems. We have been able to productize a pipeline for OCR by working with it as not just for character recognition but getting structured usable information.
+Document Scanner was built to solve the above mentioned problems. We have been able to productize a pipeline for OCR by working with it not just for character recognition but getting structured usable information.
 
 <center><img src="https://ph-files.imgix.net/a8b55670-2332-43fa-9a36-7e6619308363?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=627.3015873015872&h=380&fit=max&dpr=2"></center>
  
@@ -98,7 +98,7 @@ Document Scanner was built to solve the above mentioned problems. We have been a
 
 ### <a style="text-decoration:underline;" >Benefits of Document Sanner </a>
 
-1. Document Scanner saves precious time by providing structured usable information which can be used for autofilling forms etc.
+1. Document Scanner saves precious time by providing structured usable information that can be used for auto-filling forms etc.
 2. Prevents error due to User entry.
 3. Increases overall productivity.
 4. Compatibility with local languages. 
@@ -110,11 +110,11 @@ Document Scanner was built to solve the above mentioned problems. We have been a
 #### <a style= "text-decoration:underline"> Employee Onboarding Using Aadhar </a > 
 
 
-Employee Creation requires filling of multiple fields and is quite time taking.
+Employee Creation requires filling of multiple fields and is quite a time taking.
 It is also expected that the user input is accurate as fields like Document 
-No (Aadhar No.) need to be unique. Failure to do so means refilling of the form
+No (Aadhar No.) needs to be unique. Failure to do so means refilling the form
 which further increases the time taken to create an employee. Using 
-Document Scanner with Aadhaar helps speed up the process and helps in eliminating error due to user input . 
+Document Scanner with Aadhaar helps speed up the process and helps in eliminating errors due to user input . 
 
 <center><img src= "http://drive.google.com/uc?export=view&id=1AO1Dw44v4hMBtu1-N74srcS9ecWjRFHi" width="80%" height="80%" > </center>
 
@@ -133,7 +133,7 @@ Document Scanner with Aadhaar helps speed up the process and helps in eliminatin
 As we discussed above to get structured information from Document Scanner we use a set of rules that tell it which data points and where to look for them in the document. Now think of a system that can take it to the next level. What if instead of giving rules  we just tell it what data points we want and it looks for them automatically?
 
 
-Sounds interesting right and it might seem simple at first, let me break it down for you . Not only does it need to understand what a data point is and differentiate data points among each other, it also needs to understand what the user actually wants. Its not so simple now is it .😛  
+Sounds interesting right and it might seem simple at first, let me break it down for you . Not only does it need to understand what a data point is and differentiate data points among each other, but it also needs to understand what the user wants. It's not so simple now is it?😛  
  
  If you have any ideas as to how we can approach this problem dont hesistate to contact us. <a href="mailto:avishek.sarkar@box8.in?subject= Document Scanner Blog "><b>📧</b></a>  
 
